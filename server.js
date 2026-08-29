@@ -48,14 +48,13 @@ validateConfig();
 
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
-  'gpt-3.5-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
-  'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-3.5': 'qwen/qwen3.5-397b-a17b',
   'gpt-4-turbo': 'moonshotai/kimi-k2.6',
-  'gemini': 'deepseek-ai/deepseek-v4-pro',
+  'gpt-4o': 'deepseek-ai/deepseek-v4-pro',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gpt-4o': 'deepseek-ai/deepseek-v4-pro-0813',
+  'gemini-pro': 'nvidia/llama-3.3-nemotron-super-49b-v1.5',
   'gemini-turbo': 'meta/llama-3.3-70b-instruct',
   'gemini-turbo?': 'abacusai/dracarys-llama-3.1-70b-instruct',
   'gpt-3.5o': 'nvidia/nemotron-mini-4b-instruct',
@@ -70,6 +69,7 @@ const MODEL_MAPPING = {
   'google-lightest': 'google/gemma-2-2b-it',
   'google-lighter': 'google/gemma-3n-e4b-it',
   'm2.7': 'minimaxai/minimax-m2.7',
+  'm3': 'minimaxai/minimax-m3',
   'step-3.5-flash': 'stepfun-ai/step-3.5-flash',
   'step-3.7-flash': 'stepfun-ai/step-3.7-flash'
 };
