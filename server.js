@@ -288,7 +288,7 @@ app.post('/v1/chat/completions', async (req, res) => {
       stream
     } = req.body;
 
-    const primaryModel = MODEL_MAPPING[model] || 'deepseek-ai/deepseek-v4-pro-0813';
+    const primaryModel = MODEL_MAPPING[model] || 'moonshotai/kimi-k3';
     const modelChain = [primaryModel];
 
     const baseRequest = {
